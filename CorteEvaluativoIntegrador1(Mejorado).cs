@@ -22,3 +22,20 @@ namespace WindowsFormsApp2
 
         }
    
+    private void btnRegist_Click(object sender, EventArgs e)
+        {
+            string Nombre = Convert.ToString(txtNombre.Text);
+
+
+          
+
+            string nombre = "¡Bienvenido ala App!";
+
+            txtBienvenid.Text = nombre.ToString();
+        }
+
+        
+    }
+
+}
+
